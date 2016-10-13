@@ -10,14 +10,13 @@
 
 ## Add<a name="add"></a>
 
-## Add<a name="scope"></a>
+## Scope<a name="scope"></a>
 
-## Add<a name="max"></a>
+## Max<a name="max"></a>
 
-## Add<a name="min"></a>
+## Min<a name="min"></a>
 
-## Add<a name="multiply"></a>
+## Multiply<a name="multiply"></a>
 
-## Add<a name="union"></a>
+## Union<a name="union"></a>
 
-### Purpose of the Document <a name="purpose"></a>
