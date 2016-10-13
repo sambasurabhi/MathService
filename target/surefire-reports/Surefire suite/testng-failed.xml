@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test">
+    <classes>
+      <class name="xcal.cs.math.AdditionTest"/>
+      <class name="xcal.cs.math.DivisionTest"/>
+      <class name="xcal.cs.math.IntersectTest"/>
+      <class name="xcal.cs.math.MaxTest"/>
+      <class name="xcal.cs.math.MinTest"/>
+      <class name="xcal.cs.math.MultiplicationTest"/>
+      <class name="xcal.cs.math.TestSupport"/>
+      <class name="xcal.cs.math.UnionTest"/>
+    </classes>
+  </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="xcal.cs.math.UnionTest">
+        <methods>
+          <include name="performanceTest"/>
+        </methods>
+      </class> <!-- xcal.cs.math.UnionTest -->
+      <class name="xcal.cs.math.AdditionTest">
+        <methods>
+          <include name="testOverflow" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- xcal.cs.math.AdditionTest -->
+      <class name="xcal.cs.math.DivisionTest">
+        <methods>
+          <include name="testSuccess" invocation-numbers="0 1 2 3 4 6 7 8"/>
+        </methods>
+      </class> <!-- xcal.cs.math.DivisionTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

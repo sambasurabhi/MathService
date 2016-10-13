@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="12" total="63" passed="51">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="15103" started-at="2016-10-13T01:28:06Z" finished-at="2016-10-13T01:28:21Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="15103" started-at="2016-10-13T01:28:06Z" finished-at="2016-10-13T01:28:21Z">
+      <class name="xcal.cs.math.DivisionTest">
+        <test-method status="PASS" signature="testDivideByZero(int, int)[pri:0, instance:xcal.cs.math.DivisionTest@784b990c]" name="testDivideByZero" duration-ms="126" started-at="2016-10-12T21:28:19Z" data-provider="divideByZeroCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivideByZero -->
+        <test-method status="PASS" signature="testDivideByZero(int, int)[pri:0, instance:xcal.cs.math.DivisionTest@784b990c]" name="testDivideByZero" duration-ms="10" started-at="2016-10-12T21:28:20Z" data-provider="divideByZeroCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivideByZero -->
+        <test-method status="PASS" signature="testDivideByZero(int, int)[pri:0, instance:xcal.cs.math.DivisionTest@784b990c]" name="testDivideByZero" duration-ms="10" started-at="2016-10-12T21:28:20Z" data-provider="divideByZeroCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivideByZero -->
+        <test-method status="PASS" signature="testDivideByZero(int, int)[pri:0, instance:xcal.cs.math.DivisionTest@784b990c]" name="testDivideByZero" duration-ms="9" started-at="2016-10-12T21:28:20Z" data-provider="divideByZeroCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivideByZero -->
+        <test-method status="FAIL" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.DivisionTest@784b990c]" name="testSuccess" duration-ms="11" started-at="2016-10-12T21:28:20Z" data-provider="successCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at xcal.cs.math.DivisionTest.testSuccess(DivisionTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="FAIL" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.DivisionTest@784b990c]" name="testSuccess" duration-ms="8" started-at="2016-10-12T21:28:20Z" data-provider="successCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at xcal.cs.math.DivisionTest.testSuccess(DivisionTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="FAIL" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.DivisionTest@784b990c]" name="testSuccess" duration-ms="7" started-at="2016-10-12T21:28:20Z" data-provider="successCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at xcal.cs.math.DivisionTest.testSuccess(DivisionTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="FAIL" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.DivisionTest@784b990c]" name="testSuccess" duration-ms="9" started-at="2016-10-12T21:28:20Z" data-provider="successCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at xcal.cs.math.DivisionTest.testSuccess(DivisionTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="FAIL" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.DivisionTest@784b990c]" name="testSuccess" duration-ms="8" started-at="2016-10-12T21:28:20Z" data-provider="successCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at xcal.cs.math.DivisionTest.testSuccess(DivisionTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.DivisionTest@784b990c]" name="testSuccess" duration-ms="7" started-at="2016-10-12T21:28:20Z" data-provider="successCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="FAIL" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.DivisionTest@784b990c]" name="testSuccess" duration-ms="8" started-at="2016-10-12T21:28:20Z" data-provider="successCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-2] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-2] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at xcal.cs.math.DivisionTest.testSuccess(DivisionTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="FAIL" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.DivisionTest@784b990c]" name="testSuccess" duration-ms="6" started-at="2016-10-12T21:28:20Z" data-provider="successCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-2] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-2] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at xcal.cs.math.DivisionTest.testSuccess(DivisionTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="FAIL" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.DivisionTest@784b990c]" name="testSuccess" duration-ms="7" started-at="2016-10-12T21:28:20Z" data-provider="successCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [3] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [3] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at xcal.cs.math.DivisionTest.testSuccess(DivisionTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+      </class> <!-- xcal.cs.math.DivisionTest -->
+      <class name="xcal.cs.math.MinTest">
+        <test-method status="PASS" signature="testFailure(java.util.Collection)[pri:0, instance:xcal.cs.math.MinTest@5d1659ea]" name="testFailure" duration-ms="22" started-at="2016-10-12T21:28:21Z" data-provider="failureCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailure -->
+        <test-method status="PASS" signature="testFailure(java.util.Collection)[pri:0, instance:xcal.cs.math.MinTest@5d1659ea]" name="testFailure" duration-ms="5" started-at="2016-10-12T21:28:21Z" data-provider="failureCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailure -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, int)[pri:0, instance:xcal.cs.math.MinTest@5d1659ea]" name="testSuccess" duration-ms="8" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[9, 12, 25, 3]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, int)[pri:0, instance:xcal.cs.math.MinTest@5d1659ea]" name="testSuccess" duration-ms="8" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[9, -12, 25, 3]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, int)[pri:0, instance:xcal.cs.math.MinTest@5d1659ea]" name="testSuccess" duration-ms="6" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[9, -12, 0, 3]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, int)[pri:0, instance:xcal.cs.math.MinTest@5d1659ea]" name="testSuccess" duration-ms="7" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[9, 9, 1, 3]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+      </class> <!-- xcal.cs.math.MinTest -->
+      <class name="xcal.cs.math.AdditionTest">
+        <test-method status="FAIL" signature="testOverflow(int, int)[pri:0, instance:xcal.cs.math.AdditionTest@7096b474]" name="testOverflow" duration-ms="630" started-at="2016-10-12T21:28:06Z" data-provider="overflowCases" finished-at="2016-10-12T21:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected exception not thrown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected exception not thrown
+	at org.testng.Assert.fail(Assert.java:94)
+	at xcal.cs.math.AdditionTest.testOverflow(AdditionTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOverflow -->
+        <test-method status="FAIL" signature="testOverflow(int, int)[pri:0, instance:xcal.cs.math.AdditionTest@7096b474]" name="testOverflow" duration-ms="10" started-at="2016-10-12T21:28:07Z" data-provider="overflowCases" finished-at="2016-10-12T21:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2147483648]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected exception not thrown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected exception not thrown
+	at org.testng.Assert.fail(Assert.java:94)
+	at xcal.cs.math.AdditionTest.testOverflow(AdditionTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOverflow -->
+        <test-method status="FAIL" signature="testOverflow(int, int)[pri:0, instance:xcal.cs.math.AdditionTest@7096b474]" name="testOverflow" duration-ms="7" started-at="2016-10-12T21:28:07Z" data-provider="overflowCases" finished-at="2016-10-12T21:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected exception not thrown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected exception not thrown
+	at org.testng.Assert.fail(Assert.java:94)
+	at xcal.cs.math.AdditionTest.testOverflow(AdditionTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:132)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:224)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOverflow -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.AdditionTest@7096b474]" name="testSuccess" duration-ms="8" started-at="2016-10-12T21:28:07Z" data-provider="successCases" finished-at="2016-10-12T21:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.AdditionTest@7096b474]" name="testSuccess" duration-ms="8" started-at="2016-10-12T21:28:07Z" data-provider="successCases" finished-at="2016-10-12T21:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.AdditionTest@7096b474]" name="testSuccess" duration-ms="9" started-at="2016-10-12T21:28:07Z" data-provider="successCases" finished-at="2016-10-12T21:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.AdditionTest@7096b474]" name="testSuccess" duration-ms="8" started-at="2016-10-12T21:28:07Z" data-provider="successCases" finished-at="2016-10-12T21:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.AdditionTest@7096b474]" name="testSuccess" duration-ms="18" started-at="2016-10-12T21:28:07Z" data-provider="successCases" finished-at="2016-10-12T21:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.AdditionTest@7096b474]" name="testSuccess" duration-ms="9" started-at="2016-10-12T21:28:07Z" data-provider="successCases" finished-at="2016-10-12T21:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.AdditionTest@7096b474]" name="testSuccess" duration-ms="9" started-at="2016-10-12T21:28:07Z" data-provider="successCases" finished-at="2016-10-12T21:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.AdditionTest@7096b474]" name="testSuccess" duration-ms="8" started-at="2016-10-12T21:28:07Z" data-provider="successCases" finished-at="2016-10-12T21:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.AdditionTest@7096b474]" name="testSuccess" duration-ms="7" started-at="2016-10-12T21:28:07Z" data-provider="successCases" finished-at="2016-10-12T21:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2147483646]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.AdditionTest@7096b474]" name="testSuccess" duration-ms="6" started-at="2016-10-12T21:28:07Z" data-provider="successCases" finished-at="2016-10-12T21:28:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2147483648]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2147483647]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+      </class> <!-- xcal.cs.math.AdditionTest -->
+      <class name="xcal.cs.math.UnionTest">
+        <test-method status="FAIL" signature="performanceTest()[pri:0, instance:xcal.cs.math.UnionTest@1951b871]" name="performanceTest" duration-ms="10386" started-at="2016-10-12T21:28:07Z" finished-at="2016-10-12T21:28:17Z">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method org.testng.internal.TestNGMethod.performanceTest() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method org.testng.internal.TestNGMethod.performanceTest() didn't finish within the time-out 10000
+	at java.util.AbstractCollection.toString(AbstractCollection.java:464)
+	at org.slf4j.helpers.MessageFormatter.safeObjectAppend(MessageFormatter.java:299)
+	at org.slf4j.helpers.MessageFormatter.deeplyAppendParameter(MessageFormatter.java:271)
+	at org.slf4j.helpers.MessageFormatter.arrayFormat(MessageFormatter.java:233)
+	at org.slf4j.helpers.MessageFormatter.arrayFormat(MessageFormatter.java:173)
+	at ch.qos.logback.classic.spi.LoggingEvent.getFormattedMessage(LoggingEvent.java:293)
+	at ch.qos.logback.classic.spi.LoggingEvent.prepareForDeferredProcessing(LoggingEvent.java:206)
+	at ch.qos.logback.core.OutputStreamAppender.subAppend(OutputStreamAppender.java:205)
+	at ch.qos.logback.core.OutputStreamAppender.append(OutputStreamAppender.java:100)
+	at ch.qos.logback.core.UnsynchronizedAppenderBase.doAppend(UnsynchronizedAppenderBase.java:84)
+	at ch.qos.logback.core.spi.AppenderAttachableImpl.appendLoopOnAppenders(AppenderAttachableImpl.java:48)
+	at ch.qos.logback.classic.Logger.appendLoopOnAppenders(Logger.java:270)
+	at ch.qos.logback.classic.Logger.callAppenders(Logger.java:257)
+	at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:421)
+	at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:383)
+	at ch.qos.logback.classic.Logger.info(Logger.java:591)
+	at xcal.cs.math.MathController.union(MathController.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:114)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:688)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:65)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:770)
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:167)
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:134)
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:155)
+	at org.springframework.test.web.client.MockMvcClientHttpRequestFactory$1.executeInternal(MockMvcClientHttpRequestFactory.java:67)
+	at org.springframework.mock.http.client.MockClientHttpRequest.execute(MockClientHttpRequest.java:93)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:619)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:580)
+	at org.springframework.web.client.RestTemplate.postForEntity(RestTemplate.java:407)
+	at xcal.cs.math.UnionTest.performanceTest(UnionTest.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performanceTest -->
+        <test-method status="PASS" signature="testFailure(java.util.Collection, java.util.Collection)[pri:0, instance:xcal.cs.math.UnionTest@1951b871]" name="testFailure" duration-ms="92" started-at="2016-10-12T21:28:17Z" data-provider="failureCases" finished-at="2016-10-12T21:28:17Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailure -->
+        <test-method status="PASS" signature="testFailure(java.util.Collection, java.util.Collection)[pri:0, instance:xcal.cs.math.UnionTest@1951b871]" name="testFailure" duration-ms="7" started-at="2016-10-12T21:28:17Z" data-provider="failureCases" finished-at="2016-10-12T21:28:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[12]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailure -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, java.util.Collection, java.util.Collection)[pri:0, instance:xcal.cs.math.UnionTest@1951b871]" name="testSuccess" duration-ms="2031" started-at="2016-10-12T21:28:17Z" data-provider="successCases" finished-at="2016-10-12T21:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[1, 2, 3]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[2, 3, 4]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[1, 2, 3, 4]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, java.util.Collection, java.util.Collection)[pri:0, instance:xcal.cs.math.UnionTest@1951b871]" name="testSuccess" duration-ms="10" started-at="2016-10-12T21:28:19Z" data-provider="successCases" finished-at="2016-10-12T21:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[2, 3]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[1, 2, 3]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, java.util.Collection, java.util.Collection)[pri:0, instance:xcal.cs.math.UnionTest@1951b871]" name="testSuccess" duration-ms="10" started-at="2016-10-12T21:28:19Z" data-provider="successCases" finished-at="2016-10-12T21:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[2, 3]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[2, 3]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, java.util.Collection, java.util.Collection)[pri:0, instance:xcal.cs.math.UnionTest@1951b871]" name="testSuccess" duration-ms="37" started-at="2016-10-12T21:28:19Z" data-provider="successCases" finished-at="2016-10-12T21:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[2, 3]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[2, 3]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, java.util.Collection, java.util.Collection)[pri:0, instance:xcal.cs.math.UnionTest@1951b871]" name="testSuccess" duration-ms="9" started-at="2016-10-12T21:28:19Z" data-provider="successCases" finished-at="2016-10-12T21:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[-2, -3]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[2, 3]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[-2, -3, 2, 3]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+      </class> <!-- xcal.cs.math.UnionTest -->
+      <class name="xcal.cs.math.MultiplicationTest">
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.MultiplicationTest@793138bd]" name="testSuccess" duration-ms="22" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.MultiplicationTest@793138bd]" name="testSuccess" duration-ms="8" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.MultiplicationTest@793138bd]" name="testSuccess" duration-ms="9" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.MultiplicationTest@793138bd]" name="testSuccess" duration-ms="28" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.MultiplicationTest@793138bd]" name="testSuccess" duration-ms="8" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.MultiplicationTest@793138bd]" name="testSuccess" duration-ms="6" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.MultiplicationTest@793138bd]" name="testSuccess" duration-ms="6" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.MultiplicationTest@793138bd]" name="testSuccess" duration-ms="6" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.MultiplicationTest@793138bd]" name="testSuccess" duration-ms="14" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(int, int, int)[pri:0, instance:xcal.cs.math.MultiplicationTest@793138bd]" name="testSuccess" duration-ms="11" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+      </class> <!-- xcal.cs.math.MultiplicationTest -->
+      <class name="xcal.cs.math.MaxTest">
+        <test-method status="PASS" signature="testFailure(java.util.Collection)[pri:0, instance:xcal.cs.math.MaxTest@25bc0606]" name="testFailure" duration-ms="1070" started-at="2016-10-12T21:28:20Z" data-provider="failureCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailure -->
+        <test-method status="PASS" signature="testFailure(java.util.Collection)[pri:0, instance:xcal.cs.math.MaxTest@25bc0606]" name="testFailure" duration-ms="11" started-at="2016-10-12T21:28:21Z" data-provider="failureCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailure -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, int)[pri:0, instance:xcal.cs.math.MaxTest@25bc0606]" name="testSuccess" duration-ms="7" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[9, 12, 25, 3]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, int)[pri:0, instance:xcal.cs.math.MaxTest@25bc0606]" name="testSuccess" duration-ms="6" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[9, -12, 25, 3]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, int)[pri:0, instance:xcal.cs.math.MaxTest@25bc0606]" name="testSuccess" duration-ms="6" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[9, -12, 0, 3]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, int)[pri:0, instance:xcal.cs.math.MaxTest@25bc0606]" name="testSuccess" duration-ms="5" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[9, 9, 1, 3]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, int)[pri:0, instance:xcal.cs.math.MaxTest@25bc0606]" name="testSuccess" duration-ms="6" started-at="2016-10-12T21:28:21Z" data-provider="successCases" finished-at="2016-10-12T21:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[-9, -9, -1, -3]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+      </class> <!-- xcal.cs.math.MaxTest -->
+      <class name="xcal.cs.math.IntersectTest">
+        <test-method status="PASS" signature="testFailure(java.util.Collection, java.util.Collection)[pri:0, instance:xcal.cs.math.IntersectTest@3d3ba765]" name="testFailure" duration-ms="27" started-at="2016-10-12T21:28:20Z" data-provider="failureCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailure -->
+        <test-method status="PASS" signature="testFailure(java.util.Collection, java.util.Collection)[pri:0, instance:xcal.cs.math.IntersectTest@3d3ba765]" name="testFailure" duration-ms="6" started-at="2016-10-12T21:28:20Z" data-provider="failureCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[12]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFailure -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, java.util.Collection, java.util.Collection)[pri:0, instance:xcal.cs.math.IntersectTest@3d3ba765]" name="testSuccess" duration-ms="11" started-at="2016-10-12T21:28:20Z" data-provider="successCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[1, 2, 3]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[2, 3, 4]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[2, 3]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, java.util.Collection, java.util.Collection)[pri:0, instance:xcal.cs.math.IntersectTest@3d3ba765]" name="testSuccess" duration-ms="8" started-at="2016-10-12T21:28:20Z" data-provider="successCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[1]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[2, 3]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, java.util.Collection, java.util.Collection)[pri:0, instance:xcal.cs.math.IntersectTest@3d3ba765]" name="testSuccess" duration-ms="8" started-at="2016-10-12T21:28:20Z" data-provider="successCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[2, 3]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+        <test-method status="PASS" signature="testSuccess(java.util.Collection, java.util.Collection, java.util.Collection)[pri:0, instance:xcal.cs.math.IntersectTest@3d3ba765]" name="testSuccess" duration-ms="7" started-at="2016-10-12T21:28:20Z" data-provider="successCases" finished-at="2016-10-12T21:28:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[-2, -3]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[2, 3]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccess -->
+      </class> <!-- xcal.cs.math.IntersectTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
