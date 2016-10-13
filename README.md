@@ -1,4 +1,4 @@
-﻿# MathService WriteUps
+﻿# MathService
 1. [Inroduction](#Introduction)
     1. [add](#add)
     2. [divide](#scope)
